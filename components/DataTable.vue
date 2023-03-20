@@ -75,7 +75,7 @@
                 :class="ind % 2 === 0 ? undefined : 'bg-gray-50'"
               >
                 <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
-                  {{ new Date(item.posted_date).toLocaleString("en-US") }}
+                  {{ new Date(item.posted_date).toLocaleDateString("en-US") }}
                 </td>
                 <td class="whitespace-nowrap px-3 py-4 text-sm font-medium text-gray-900">
                   {{ item.product[0].sku_id.sku_name }}
