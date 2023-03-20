@@ -18,6 +18,8 @@ let params = {
     "created_on",
     "updated_on",
     "reference",
+    "more_info",
+    "posted_date",
     "product.sku_id.sku_name",
   ],
   meta: 'total_count'
