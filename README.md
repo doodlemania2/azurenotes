@@ -1,1 +1,0 @@
-With enormous thanks to Bo Clifton for showing me that interfaces aren't that hard!
