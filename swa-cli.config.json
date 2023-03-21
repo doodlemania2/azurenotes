@@ -1,0 +1,1 @@
+{ "$schema": "https://aka.ms/azure/static-web-apps-cli/schema", "configurations": { "azurenotes": { "appLocation": ".", "outputLocation": ".output/public", "appBuildCommand": "npm run generate", "run": "npm run dev" } } }
