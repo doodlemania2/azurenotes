@@ -6,8 +6,8 @@ export default defineNuxtConfig({
       'nuxt-icon'
     ],
     directus: {
-      url: 'https://api.thedoodleproject.net',
-      token: 'VxnL7E7U4BSdpQ_alfUAjnWWpOguUbSJ',
+      url: process.env.DIRECTUS_URL,
+      token: process.env.DIRECTUS_TOKEN,
     },
     postcss: {
       plugins: {
