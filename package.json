@@ -1,48 +1,21 @@
 {
-  "name": "myth-of-albion",
-  "version": "1.0.0",
   "private": true,
-  "description": "myth-of-albion",
-  "author": "badape-github",
-  "keywords": [
-    "gatsby"
-  ],
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
-  "dependencies": {
-    "@directus/gatsby-source-directus": "9.14.1",
-    "daisyui": "^2.41.0",
-    "gatsby": "^4.24.8",
-    "gatsby-background-image": "^1.6.0",
-    "gatsby-plugin-image": "^2.24.0",
-    "gatsby-plugin-react-helmet": "^5.24.0",
-    "gatsby-plugin-sitemap": "^5.24.0",
-    "gatsby-transformer-sharp": "^4.24.0",
-    "gbimage-bridge": "^0.2.2",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-helmet": "^6.1.0"
-  },
-  "main": "gatsby-config.js",
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.8",
+    "@nuxtjs/tailwindcss": "^6.6.4",
     "autoprefixer": "^10.4.13",
-    "gatsby-plugin-postcss": "^5.24.0",
+    "nuxt": "^3.0.0",
+    "nuxt-icon": "^0.3.3",
     "postcss": "^8.4.19",
     "tailwindcss": "^3.2.4"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/WestForge/avalon-myth-of-albion.git"
-  },
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/WestForge/avalon-myth-of-albion/issues"
-  },
-  "homepage": "https://github.com/WestForge/avalon-myth-of-albion#readme"
+  "dependencies": {
+    "nuxt-directus": "^5.1.1"
+  }
 }
